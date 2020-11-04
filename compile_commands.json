@@ -1,0 +1,12 @@
+[
+    {
+        "directory": "/home/czhang/tair-contest/",
+        "command": "/usr/bin/clang++ -std=c++11 -I./ -I./tbb/ -I./nvm_engine/ -c ./nvm_engine/NvmEngine.cpp -o ./nvm_engine/NvmEngine.o",
+        "file": "file.cc"
+    },
+    {
+        "directory": "/home/czhang/tair-contest/judge/",
+        "command": "/usr/bin/clang++ -std=c++11 -I./ -I../ -I../tbb/ -I../nvm_engine/ -c ./judge.cpp -o ./judge.o",
+        "file": "file.cc"
+    }
+]
